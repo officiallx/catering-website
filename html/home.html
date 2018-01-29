@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    
+    <script>
+			var CurrentIndex = 0; //set curent index to 0
+			show(CurrentIndex); //show image having index equal to CurrentIndex
+
+			function change(n) {
+				CurrentIndex += n; //add or subtract 1 to CurrentIndex
+				show(CurrentIndex); //show image having index equal to CurrentIndex
+			}
+
+			function show(n) {
+				var i;
+				var x = document.getElementsByClassName("slider"); //gets all elements having class as "slider" and puts in an array
+				
+				if (n > x.length - 1) {
+ 					CurrentIndex = 0; //if n exceeds the indexes of the array then set CurrentIndex to 0
+				}    
+				if (n < 0) {
+					CurrentIndex = x.length - 1; //if n is negative then set CurrentIndex to the last index of the array
+				}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  //set display none to all elements 
+				}
+				
+				x[CurrentIndex].style.display = "block";  //set display block to element with index equal to CurrentIndex
+			}
+		</script>
+
+	<title>Home</title>
+</head>
+<body>
+    <div class="homebg"></div>
+	<header>
+        <div class="menu">
+            <div id="menulogo">
+                <a href="../html/index.html" target="_self"><img src="../images/blacktiecateringlogo.jpg" alt="logo" width="175px" height="50px"/></a>
+            </div>
+            <ul>
+                <li class="current"><a href="#">Home</a>
+                <li><a href="../html/about.html">About</a>
+                <li><a href="../html/services.html">Services</a>
+                <li><a href="../html/contact.html">Order</a>
+                <li><a href="../html/gallery.html">Gallery</a>
+            </ul>
+        </div>
+	</header>
+    <section>
+        <div class="body">
+            <div class="banner">
+				<img class="slider" src="../images/items/modern/20766966_287322915079813_4272125547523342336_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/19051093_190220658170509_5874754712414191616_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/13129250_279731752366015_466304238_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/19955647_1649376811739597_3736616226055520256_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/20398640_132964597306613_7124956371576946688_n.jpg.jpg"/>
+				<img class="slider" src="../images/items/modern/13398644_1747178852167421_1161491176_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/13768238_145459902550587_934665581_n.jpg.jpg"/>
+                <img class="slider" src="../images/items/modern/20479156_778065579032817_3469299853849264128_n.jpg.jpg"/>
+				<button id="front" onclick="change(1)"></button>
+				<button id="back" onclick="change(1)"></button>
+                <div class="bannertxt">
+                <p>WELCOME</p>
+                </div>
+            </div>
+            <div class="container5">
+                <div class="content">
+                    <p>Welcome to <span>Black Tie Catering</span> company, located in Kirtipur, Kathmandu! We are an off-site catering company serving Every Region. The Catering Company has a team focused on making your vision a reality<br><span>You become our guest, a part of our family.</span><br>And whether large or small, your catering needs will be taken care of from the moment we say <span style="text-transform: uppercase;">“welcome”</span> to the time your last guest leaves and you smile and say to us “well done!”.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container4">
+            <div class="sectiontext">
+                <p>Partner and Awards</p>
+            </div>
+            <ul>
+                <li><img src="../images/awards/1674.jpg" width="230px" height="190px"/></li>
+                <li><img src="../images/awards/csc_awards_2017_rainbow.jpg" width="200px" height="190px"/></li>
+                <li><img src="../images/awards/ExcellentFood.jpg" width="220px" height="180px"/></li>
+                <li><img src="../images/awards/NACE_VERT_Awards-lo.jpg" width="220px" height="180px"/></li>
+                <li><img src="../images/awards/good-food-awards-banner.jpg" width="800px" height="180px"/></li>
+                <li><img src="../images/awards/TheOneAwardLogoREV_FINAL.jpg" width="220px" height="150px"/></li>
+                <li><img src="../images/awards/savour-rca-awards-2015.jpg" width="220px" height="150px"/></li>
+                <li><img src="../images/awards/CCA16-Badge.jpg" width="220px" height="150px"/></li>
+                <li><img src="../images/awards/wedding.jfif" width="220px" height="150px"/></li>
+                <li><img src="../images/awards/4.jpg" width="220px" height="200px"/></li>
+                <li><img src="../images/awards/images.jfif" width="400px" height="150px"/>
+                </li>
+                <li><img src="../images/awards/Hardys%20Hi%20Wedding%20Award%20Winner%20logo.jpg" width="220px" height="280px"/></li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="webfooter">
+        <ul>
+            <li><a href="#" target="_blank"><img src="../images/icons/005-facebook.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/003-instagram.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/004-google-plus.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/001-youtube.png" alt=""/></a></li>
+        </ul>
+        <p>Get Service, Forget the Rest<br>&copy;Elex Maharjan 2017</p>
+    </div>
+</body>
+</html>

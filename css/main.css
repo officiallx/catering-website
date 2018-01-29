@@ -1,0 +1,1139 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    height: 50px;
+    width: 100%;
+}
+
+head{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+favicon {
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/contactbg.jfif);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+
+.background{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/glass.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+.homebg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/glass.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(3px);
+    
+}
+
+.contactbg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/contactbg.jfif);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+.servicesbg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+.gallerybg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/catering.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+.aboutbg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+    background-image: url(../images/catering.jpeg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(0px);
+}
+
+.bfbg{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+    background-image: url(../images/B1.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+}
+
+.container{
+    position: absolute;
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.container2{
+    position: absolute;
+    width 80%;
+    margin-top: 50px;
+    height: auto;
+    color: white;
+    padding: 30px;
+}
+
+.container2 h6{
+    margin: auto;
+    padding: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 1200px;
+    margin-top: -10px;
+    background-color: transparent;
+    width: 100px;
+    text-align: center;
+}
+
+.container3{
+    position: absolute;
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: 29%;
+    margin: 0;
+    padding: 0;
+    top: 470px;
+    text-align: center;
+    font-family: 'Julee', cursive;
+    font-size: 18px;
+}
+
+.container4{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    padding: 0;
+    top: 680px;
+    border: 1px solid white;
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.container4 ul{
+    margin: 60px 25px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.container4 li{
+    float: left;
+}
+
+
+.container5{
+    position: absolute;
+    background-color: aliceblue;
+    overflow: hidden;
+    width: 100%;
+    height: 180px;
+    top: 500px;
+    padding: 0;
+}
+
+.container5 p{
+    margin-right: 30px;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.container6{
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    margin: auto;
+    width: 75%;
+    height: 610px;
+    padding: 10px;
+    top: 760px;
+    border: 0px transparent; 
+}
+
+.container6 ul{
+    margin: 60px 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container6 li{
+    float: left;
+}
+
+.container6 li a{
+    display: block;
+    border: 3px solid white;
+    border-radius: 100px 10px 100px 10px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.container6 li a:hover{
+    z-index: 1;
+    opacity: 0.6;
+    border: 3px solid firebrick;
+    box-shadow: 10px 10px 5px #888888;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.container6 ul li p{
+    color: teal;
+    font-family: 'Finger Paint', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container6 .header{
+    height: 70px;
+    margin-left: 400px;
+    position: absolute;
+    padding: 0;
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    font-family: 'Freckle Face', sans-serif;
+    font-size: 25px;
+    color: firebrick;
+    text-transform: uppercase;
+    border-top: 3px solid teal;
+    border-bottom: 5px solid teal;
+    border-radius: 100px 100px;
+}
+
+.advertisement{
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    top: 662px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Freckle Face', cursive;
+    font-size: 20px;
+    border-bottom: 3px solid orange;
+}
+
+.advertisement span{
+    color: firebrick;
+    font-size: 35px;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.container7{
+    box-sizing: content-box;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    top: 45px;
+    border: 1px solid white;
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.container7 .title{
+    width: 100%;
+    background-color: white;
+    color: orange;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 30px;
+}
+
+.container7 ul{
+    margin: 60px 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container7 li{
+    padding: 20px;
+    float: left;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: black;
+    z-index: 1;
+    top: -3px;
+    left: -0.5px;
+    border-bottom: 2px solid white;
+}
+
+#menulogo{
+    position: fixed;
+    margin-left: 100px;
+}
+
+.menu ul{
+    float: right;
+    margin-right:  50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    text-align: center;
+    margin-left: 30px;
+    display: block;
+    width: auto;
+    text-decoration: none;
+    font-family: 'Finger Paint', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.8s ease-in-out;
+    color: white;
+}
+
+.menu li a:hover {
+    color: orange;
+    background-color: transparent;
+    transition: 0.7s ease-in-out;
+    font-size: 23px;
+    text-decoration: overline underline;
+}
+
+.current {
+    color: orange;
+    text-decoration: overline underline;
+}
+
+.sectiontext{
+    color: white;
+    font-family: 'Julee', cursive;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    text-align: center;
+}
+
+.sectiontext p{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: black;
+    font-size: 42px;
+    text-align: center;
+    
+    
+}
+
+.about-section{
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    top: 533px;
+    border-bottom: 1px solid white;
+}
+
+.about-section-info{
+    width: 100%;
+    height: 94%;
+    top: 865px;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: #343534;
+}
+
+.about-section p{
+    margin: auto;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.about-section h1{
+    margin-top: 40px;
+    border-bottom: 4px solid black;
+    font-family: sans-serif;
+}
+
+.about-section-info img{
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-left: 330px;
+    margin-top: 200px;
+}
+
+.description{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: -300px;
+    margin-right: 70px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.description h3{
+    color: white;
+    font-family:'Sail', cursive;
+    font-size: 30px;
+    
+}
+
+.description h4{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.description h5{
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.about-section h1{
+    padding: 20px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+footer {
+    overflow: hidden;
+    position: fixed;
+	padding: 0;
+    margin: 0;
+    width: auto;
+    top: 585px;
+    width: 100%;
+    height: 75px;
+	color: white;
+	background-color: black;
+    border-top: 2px solid white;
+	text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+footer .logo{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.webfooter{
+    font-family: 'Comics', cursive;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    background-color: black;
+    margin: 0;
+    margin-left: -9px;
+    border-top: 2px solid white;
+    padding: 0;
+    width: 100%;
+    height: 75px;
+    top: 750px;
+}
+
+.webfooter ul{
+    list-style-type: none;
+}
+
+.webfooter ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.webfooter p{
+    text-align: center;
+    margin: auto;
+}
+
+.services-footer{
+    overflow: hidden;
+    position: absolute;
+	padding: 0;
+    margin: 0;
+    width: auto;
+    top: 1500px;
+    width: 100%;
+    height: 75px;
+	color: white;
+	background-color: black;
+    border-top: 2px solid white;
+	text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.services-footer ul{
+    list-style-type: none;
+}
+
+.services-footer ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.services-footer input[type="search"]{
+    width: 160px;
+    height: 25px;
+    border: 0px solid white;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+.services-footer input[type="search"]:focus{
+    width: 200px;
+    height: 25px;
+    border: 0px solid white;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+.contact-footer{
+    overflow: hidden;
+    position: relative;
+	padding: 0;
+    margin: 0;
+    width: auto;
+    top: 20px;
+    width: 100%;
+    height: 75px;
+	color: white;
+	background-color: black;
+    border-top: 2px solid white;
+	text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.contact-footer ul{
+    list-style-type: none;
+}
+
+.contact-footer ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.about-footer{
+    overflow: hidden;
+    position: relative;
+	padding: 0;
+    margin: 0;
+    width: auto;
+    top: 2000px;
+    width: 100%;
+    height: 75px;
+	color: white;
+	background-color: black;
+    border-top: 2px solid white;
+	text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.about-footer ul{
+    list-style-type: none;
+}
+
+.about-footer ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.gallery-footer{
+    overflow: hidden;
+    position: relative;
+	padding: 0;
+    margin: 0;
+    width: auto;
+    top: 400px;
+    width: 100%;
+    height: 75px;
+	color: white;
+	background-color: black;
+    border-top: 2px solid white;
+	text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.gallery-footer ul{
+    list-style-type: none;
+}
+
+.gallery-footer ul li{
+    margin-left: 10px;
+    float: left;
+}
+
+.button{
+	position: absolute;
+	top: 390px;
+	left: 550px;
+	height: 50px;
+	width: 350px;
+	padding: 10px;
+    overflow: hidden;
+}
+
+input[type=button]{
+    font-family: 'Sail', cursive;
+    width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+    transition: 1s ease-in-out;
+	font-size: 20px;
+	font-weight: 400;
+    overflow: hidden;
+
+}
+
+input[type=button]:hover {
+    transition: 1s ease-in-out;
+    font-size: 23px;
+    opacity: 0.8;
+    background-color: antiquewhite;
+    color: orange;
+    overflow: hidden;
+
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Finger Paint', cursive;
+}
+
+.banner{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 75%;
+	text-align: center;
+    transition: 2s ease-in-out;
+    border-radius: 4px;
+    border-bottom: 3px solid maroon;
+    background-image: url(../images/buffet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-banner-bottom {
+    position: absolute;
+    overflow: hidden;
+    top: 1485px;
+    width: 100%;
+    height: 78%;
+	text-align: center;
+    background-image: url(../images/items/modern/16584850_1861021207470500_5806693332042121216_n.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-filter: blur(3px);
+}
+
+#text{
+    position: absolute;
+    overflow: hidden;
+    top: 1530px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    color: black;
+    font-family: 'Zilla Slab Highlight', monospace;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 250px;
+	height: 20px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 5px;
+    color: black;
+    font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 4px;
+    margin-left: 50px;
+    transition: 0.8s ease-out;
+}
+
+input[type="email"] {
+    width: 250px;
+	height: 20px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 5px;
+    color: black;
+    font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 4px;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: 0.8s ease-out;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    transition: 0.5s ease-out;
+    color: white;
+    font-family: 'Finger Paint', cursive;
+    background-color: orange;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input[type="text"]:focus,input[type="email"]:focus{
+    transition: 0.8s ease-in-out;
+    width: 270px;
+	height: 20px;
+    background-color: gainsboro;
+}
+
+input[type="submit"]:hover{
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.about-banner{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+	text-align: center;
+    transition: 2s ease-in-out;
+    border-radius: 4px;
+    border-bottom: 3px solid maroon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.banner2{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 93%;
+	text-align: center;
+    transition: 2s ease-in-out;
+    border-radius: 4px;
+    border-bottom: 3px solid maroon;
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner2 img{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-left: -675px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner a{
+    position: fixed;
+    margin-left: 500px;
+    margin-top: 350px;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+
+.bannertxt{
+    position: absolute;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 55px;
+    margin: 0;
+    color: white;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 550px;
+}
+
+.subscribe{
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    top: 620px;
+    background-color: orange;
+    width: 99%;
+    height: 30px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.subscribe p{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    color: black;
+    font-family: 'Julee', cursive;
+}
+
+.subscribe p span{
+    color: white;
+}
+
+.subscribe input[type="email"] {
+    width: 250px;
+	height: 15px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 5px;
+    color: black;
+    font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	font-weight: 400;
+    margin-left: 50px;
+}
+
+.subscribe input[type="submit"]{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    transition: 1s ease-out;
+    color: whitesmoke;
+    font-family: 'Finger Paint', cursive;
+    background-color: darkslategray;
+    border: 1px solid #888888;
+    border-radius: 4px 20px;
+}
+
+.subscribe input[type="submit"]:hover{
+    transition: 1s ease-in;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.content{
+    position: absolute;
+    color: whitesmoke;
+    padding: 15px;
+    height: auto;
+    width: 100%;
+}
+
+div span{
+    color: orange;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+}
+
+
+.form{
+    overflow: hidden;
+    background: url(../images/background.jpg);
+    position: relative;
+    margin: auto;
+    width: 30%;
+    height: 1000px;
+    margin-top: 55px;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.form p{
+    height: auto;
+    width: auto;
+    position: relative;
+    text-align: justify;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.form .header{
+    position: relative;
+    margin-top: -80px;
+    padding: 0;
+    width: 100%;
+    height:120px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: firebrick;
+    font-size: 40px;
+}
+
+.form input[type="submit"] {
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    margin-left: 90px;
+    border: 2px solid darkslategrey;
+    background: darkslategray;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Sail', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s ease-out;
+}
+
+.form input[type="submit"]:hover {
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid darkslategrey;
+    background: darkslategray;
+    color: orange;
+    text-align: center;
+    font-family: 'Sail', cursive;
+    font-size: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.form input[type="text"], form input[type="number"] {
+    width: 250px;
+	height: 20px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+    color: black;
+    font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 4px;
+    margin: 0;
+}
+
+.form input[type="text"]:focus, .form input[type="number"]:focus, .form textarea:focus {
+    background-color: gainsboro;
+}
+
+.form textarea{
+    margin: auto;
+    width: 350px;
+    height: auto;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Finger Paint', cursive;
+}
+
+.form input[type="date"], form input[type="time"] {
+    width: 250px;
+	height: 20px;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+    color: black;
+    font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 70px;
+    height: 30px;
+}
+
+#front{
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 90px;
+    height: 90%;
+    top: 50px;
+    left: 95%;
+    border: 0px transparent;
+}
+
+#back{
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 90px;
+    height: 90%;
+    top: 50px;
+    left: 0%;
+    border: 0px transparent;
+}
+
+#back:hover, #front:hover {
+    cursor: pointer;
+}
+

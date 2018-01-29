@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>About</title>
+    
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    
+    <script src = "../javascript/validation.js"></script>
+    <script src="../javascript/slide.js"></script>
+    
+    <script>
+    function feedback(){
+	var name = document.forms["feedbackForm"]["name"].value;
+	var email = document.forms["feedbackForm"]["email"].value;
+    var message = document.forms["feedbackForm"]["message"].value;
+    
+	if (name == "" || email == "" || message == "")
+    {
+		alert("Empty fields found. Please fill the form.");
+	}
+	else 
+    {
+		alert("Thank you for you Feedback !!!");
+	}
+    }
+    </script>
+    
+</head>
+<body>
+    <div class="aboutbg"></div>
+    <div class="menu">
+            <div id="menulogo">
+                <a href="../html/index.html" target="_self"><img src="../images/blacktiecateringlogo.jpg" alt="logo" width="175px" height="50px"/></a>
+            </div>
+            <ul>
+                <li><a href="../html/home.html">Home</a>
+                <li class="current"><a href="#">About</a>
+                <li><a href="../html/services.html">Services</a>
+                <li><a href="../html/contact.html">Order</a>
+                <li><a href="../html/gallery.html">Gallery</a>
+            </ul>
+        </div>
+    <div class="about-banner">
+        <img name="slide" width="100%" height="200%">
+    </div>
+    <div class="about-section">
+        <h1>CAREERS</h1>
+        <p>All of our employees play a vital role in driving our company forward. We may be different as individuals, but together we share a deep passion for our craft, have fierce dedication to quality and innovation, and are good-hearted team players. If you believe that you have something special to offer, are positive and enthusiastic, and love to make people smile, then we want to hear from you.</p>
+    </div>
+    <div class="about-section-info">
+        <p><img src="../images/about.jpg" alt="" width="200px" height="200px"/></p>
+        <div class="description">
+            <h3>“I have worked at many other catering companies, but never learned as much nor enjoyed working there as much as Catering by Black Tie. We all come to work and to events with enthusiasm and professionalism, preparing every meal and plate to the greatest quality.”</h3>
+            <h4>Ghyukumari, Executive chef</h4>
+            <h5>with Black Tie Catering from 2000 </h5>
+        </div>
+    </div>
+    <div class="about-banner-bottom">
+    </div>
+    <div id="text">
+        <form name="feedbackForm" onsubmit="feedback()">
+            <h1>Feedback</h1>
+            <input type="text" name="name" placeholder="Full Name"><br>
+            <input type="email" name="email" placeholder="Email Id"><br>
+            <textarea rows="10" cols="10" name="message" placeholder="Enter your Feedback"></textarea><br>
+            <input type="submit" name="submit" value="Submit" >
+        </form>
+    </div>
+    <div class="about-footer">
+        <ul>
+            <li><a href="#" target="_blank"><img src="../images/icons/005-facebook.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/003-instagram.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/004-google-plus.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/001-youtube.png" alt=""/></a></li>
+        </ul>
+        <p>Get Service, Forget the Rest<br>&copy;Elex Maharjan 2017
+        </p>
+    </div>
+</body>
+</html>

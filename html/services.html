@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Services</title>
+    
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    
+    <script src="../javascript/validation.js"></script>
+    
+    <script>
+	var i = 0; // Start point
+	var images = [];
+	var time = 2000;
+
+	// Image List
+	images[0] = '../images/b4.jpg';
+	images[1] = '../images/b5.jpg';
+	images[2] = '../images/b6.jpg';
+	images[3] = '../images/b7.jpg';
+    images[4] = '../images/b8.jpg';
+    images[5] = '../images/b9.jpg';
+    images[6] = '../images/b10.jpg';
+
+	// Change Image
+	function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+
+    </script>
+    
+    <script>
+        function subscribe(){
+        	var email = document.forms["submit"]["email"].value;
+
+            if(email==""){
+                alert("Email field is blank")
+            }
+            else{
+                alert("Thankyou for subscribing our newsletter")
+            }
+        }
+    </script>
+    
+</head>
+<body>
+    <div class="servicesbg"></div>
+    <div class="menu">
+        <div id="menulogo">
+            <a href="../html/index.html" target="_self"><img src="../images/blacktiecateringlogo.jpg" alt="logo" width="175px" height="50px"/></a>
+            </div>
+        <ul>
+            <li><a href="../html/home.html">Home</a>
+            <li><a href="../html/about.html">About</a>
+            <li class="current"><a href="#">Services</a>
+            <li><a href="../html/contact.html">Order</a>
+            <li><a href="../html/gallery.html">Gallery</a>
+        </ul>
+    </div>
+    <div class="banner2">
+        <img name="slide" width="100%" height="1200px">
+    </div>
+    <section>
+        <div class="subscribe">
+            <p style="text-transform: uppercase; font-weight: bold;">Subscribe <span>to our</span> newsletter</p>
+                <form action="mailto:pop.gmail.com" method="get" enctype="text/plain" name="submit" onsubmit="subscribe()">
+                    <input type="email" name="email">
+                    <input type="submit" name="submit" value="Subscribe">
+                </form>
+        </div>
+        <div class="advertisement" style="text-transform: uppercase">
+            <marquee behavior="alternate"><h2><span>Black Tie Catering</span> offers <span>10%</span> discount on any services </h2></marquee>
+        </div>
+        <div class="container6">
+            <div class="header">
+                <h3>SERVICES</h3>
+            </div>
+            <ul>
+                <li><p><a href="../html/services/breakfast.html" target="_self"><img src="../images/items/breakfast.jpg" alt="" width="280px" height="183px"/></a>Breakfast</p></li>
+                <li><p><a href="../html/services/lunch.html" target="_self"><img src="../images/items/lunch.jpg" alt="" width="280px" height="183px"/></a>Lunch</p></li>
+                <li><p><a href="../html/services/snacks.html" target="_self"><img src="../images/items/snacks.jpg" alt="" width="280px" height="183px"/></a>Snacks</p></li>
+                <li><p><a href="../html/services/dinner.html" target="_self"><img src="../images/items/dinner.jpg" alt="" width="280px" height="183px"/></a>Dinner</p></li>
+                <li><p><a href="../html/services/beverages.html" target="_self"><img src="../images/items/beverage.jpg" alt="" width="280px" height="183px"/></a>Beverages</p></li>
+                <li><p><a href="../html/services/dessert.html" target="_self"><img src="../images/items/dessert.jpg" alt="contact" width="280px" height="183px"/></a>Dessert</p></li>
+            </ul>
+        </div>
+    </section>
+    <div class="services-footer">
+        <ul>
+            <li><a href="#" target="_blank"><img src="../images/icons/005-facebook.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/003-instagram.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/004-google-plus.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/001-youtube.png" alt=""/></a></li>
+            <li><form>
+                <input type="search" name="search">
+                <p style="color: white;">SEARCH</p>
+        </form>
+        </li>
+        </ul>
+        <p>Get Service, Forget the Rest<br>&copy;Elex Maharjan 2017
+        </p>
+        
+    </div>
+</body>
+</html>

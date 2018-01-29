@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Contact</title>
+    
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    
+    <script src = "../javascript/validation.js"></script>
+    
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="menu">
+            <div id="menulogo">
+                <a href="../html/index.html" target="_self"><img src="../images/blacktiecateringlogo.jpg" alt="logo" width="175px" height="50px"/></a>
+            </div>
+            <ul>
+                <li><a href="../html/home.html">Home</a>
+                <li><a href="../html/about.html">About</a>
+                <li><a href="../html/services.html">Services</a>
+                <li class="current"><a href="#">Order</a>
+                <li><a href="../html/gallery.html">Gallery</a>
+            </ul>
+        </div>
+    <section>
+        <form name="orderForm" onsubmit="order()">
+            <div class="form">
+                <div class="header" style="text-transform: uppercase">
+                    <h2>Order Form</h2>
+                </div>
+                <ul>
+                    <p>First Name: <br><input type="text" name="firstname"></p>
+                    <p>Last Name: <br><input type="text" name="lastname"></p>
+                    <p>Address: <br><input type="text" name="address"></p>
+                    <p>Contact: <br><input type="text" name="contact"></p>
+                    <p>Guest Count: <br><input type="number" name="guestCount"></p>
+                    <p>Event Date: <br><input type="date" name="date"></p>
+                    <p>Event Time: <br><input type="time" name="time"></p>
+                    <p>Venue: <br><input type="text" name="venue"></p>
+                    <p>Comment: <textarea type="text" name="message" rows="10" cols="30" placeholder="Any other Messages. Write here ..."></textarea></p>
+                    <p><input type="submit" name="submit" value="Order"></p>
+                </ul>
+            </div>
+        </form>
+    </section>
+        <div class="contact-footer">
+            <ul>
+            <li><a href="#" target="_blank"><img src="../images/icons/005-facebook.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/003-instagram.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/004-google-plus.png" alt=""/></a></li>
+            <li><a href="#" target="_blank"><img src="../images/icons/001-youtube.png" alt=""/></a></li>
+        </ul>
+            <p>Get Service, Forget the Rest<br>&copy; Elex Maharjan 2017</p>
+        </div>
+</body>
+</html>
